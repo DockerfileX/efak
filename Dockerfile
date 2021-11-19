@@ -26,4 +26,4 @@ RUN \
     && echo 'tail -f logs/ke_console.out' >> entrypoint.sh \
     && touch logs/ke_console.out
 
-ENTRYPOINT ["bash", "./entrypoint.sh"]
+ENTRYPOINT ["sh", "./entrypoint.sh"]
