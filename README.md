@@ -9,15 +9,15 @@
 ## 2. 编译
 
 ```sh
-docker build -t nnzbz/efak:2.0.8 --build-arg VERSION=2.0.8 .
+docker build -t nnzbz/efak:2.1.0 --build-arg VERSION=2.1.0 .
 # latest
-docker tag nnzbz/efak:2.0.8 nnzbz/efak:latest
+docker tag nnzbz/efak:2.1.0 nnzbz/efak:latest
 ```
 
 ## 3. 上传镜像
 
 ```sh
-docker push nnzbz/efak:2.0.8
+docker push nnzbz/efak:2.1.0
 docker push nnzbz/efak:latest
 ```
 
