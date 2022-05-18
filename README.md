@@ -14,6 +14,9 @@ docker build -t nnzbz/efak:2.1.0 --build-arg VERSION=2.1.0 .
 docker tag nnzbz/efak:2.1.0 nnzbz/efak:latest
 ```
 
+- 升级版本时注意
+  - 解压升级版本后，注意修改 `conf/system-config.properties` 文件的内容
+
 ## 3. 上传镜像
 
 ```sh
